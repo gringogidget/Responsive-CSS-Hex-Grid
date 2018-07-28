@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+}
+
+header, #header, aside#sidebar, footer, #footer {
+  display: none;
+}
+
+.wpb_raw_code.wpb_content_element.wpb_raw_html {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  font-family: lato;
+  margin-top: -210px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+img.hex-width {
+  width: 250px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.flex-container>div {
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.half-hex {
+  width: 170px;
+  background-color: black;
+}
+
+.hex.top, .half-hex.top {
+  margin-top: -190px !important;
+}
+
+.black-hex {
+  width: 340px;
+}
+
+.hex, .black-hex, .half-hex, .pink-hex, #six-hex {
+  margin-top: -96px !important;
+}
+
+.hex.left-pad {
+  margin-left: 144px;
+}
+
+.hex.dim:hover {
+  opacity: 0.5;
+}
+
+.two-words {
+  line-height: 40px;
+}
+
+
+
+
+@media only screen and (max-width: 1350px) {
+
+#hex-5.hex.top, #hex-6.hex.left-pad {
+  display: none;
+}
+
+#hex-7.hex.dim {
+  margin-left: 144px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* give me space */
