@@ -47,6 +47,7 @@ img.hex-width {
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  opacity: 0.5;
 }
 
 .half-hex {
@@ -73,8 +74,9 @@ img.hex-width {
 }
 
 .hex.dim:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
+/* was 0.5 */
 
 .two-words {
   line-height: 40px;
@@ -90,9 +92,11 @@ img.hex-width {
   #hex-7.hex, #hex-20.hex, #hex-33.hex {
     display: none;
   }
+  /* colour test
   #hex-10.hex.dim {
     background: green;
   }
+  */
 }
 
 @media only screen and (max-width: 1733px) {
@@ -102,9 +106,11 @@ img.hex-width {
   #hex-23.hex.dim {
     margin-left: 10px !important;
   }
+  /* colour test
   #hex-10.hex.dim {
     background: red;
   }
+  */
 }
 
 @media only screen and (max-width: 1619px) {
@@ -117,19 +123,22 @@ img.hex-width {
   #hex-9.hex, #hex-22.hex {
     margin-left: 130px;
   }
+  /* colour test
   #hex-10.hex.dim {
     background: orange;
   }
+  */
 }
 
 @media only screen and (max-width: 1466px) {
   #hex-14.hex, #hex-28.hex {
     display: none;
   }
+  /* colour test
   #hex-10.hex.dim {
     background: yellow;
   }
-  a
+  */
 }
 
 @media only screen and (max-width: 1333px) {
@@ -139,9 +148,11 @@ img.hex-width {
   #hex-9.hex, #hex-19.hex {
     margin-left: 130px;
   }
+  /* colour test
   #hex-10.hex.dim {
     background: pink;
   }
+  */
 }
 
 @media only screen and (max-width: 1199px) {
@@ -154,9 +165,11 @@ img.hex-width {
   #hex-25.hex, #hex-29.hex, #hex-30.hex, #hex-31.hex {
     margin-top: 10px !important;
   }
+  /* colour test
   #hex-10.hex.dim {
     background: DeepPink;
   }
+  */
 }
 
 @media only screen and (max-width: 1066px) {
@@ -169,9 +182,11 @@ img.hex-width {
   #hex-19.hex.dim, #hex-23.hex.dim, #hex-24.hex.dim {
     margin-top: 10px !important;
   }
+    /* colour test
   #hex-10.hex.dim {
     background: DarkViolet;
   }
+  */
 }
 
 @media only screen and (max-width: 933px) {
@@ -193,9 +208,11 @@ img.hex-width {
   #hex-23.hex.dim {
     margin-left: 250px !important;
   }
+    /* colour test
   #hex-10.hex.dim {
     background: DodgerBlue;
   }
+  */
 }
 
 @media only screen and (max-width: 799px) {
@@ -220,9 +237,11 @@ img.hex-width {
   #hex-25.hex {
     opacity: 0;
   }
+    /* colour test
   #hex-10.hex.dim {
     background: DarkSalmon;
   }
+  */
 }
 
 @media only screen and (max-width: 666px) {
@@ -247,9 +266,11 @@ img.hex-width {
   #hex-10.hex.dim {
     margin-top: -30px !important;
   }
+  /* colour test
   #hex-10.hex.dim {
     background: DarkSeaGreen;
   }
+  */
 }
 
 @media only screen and (max-width: 533px) {
@@ -279,4 +300,13 @@ p {
     font-size: 16px;
     letter-spacing: 3px;
 }
+}
+
+p.copyright {
+margin: 0;
+font-size: 16px;
+}
+
+.copyright {
+  margin: 0 auto !important;
 }
